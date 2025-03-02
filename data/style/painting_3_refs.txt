@@ -1,0 +1,2 @@
+/data1/ye_project/OSTAF/data/style/1/painting.png
+/data1/ye_project/OSTAF/data/style/1/the_scream.png
