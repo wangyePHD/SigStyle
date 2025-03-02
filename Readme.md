@@ -1,4 +1,4 @@
-# <center>SigStyle: Signature Style Transfer via Personalized Text-to-Image Models <br> AAAI 2025 Poster </center>
+# <center>SigStyle: Signature Style Transfer via Personalized Text-to-Image Models, AAAI 2025 Poster </center>
 
 <p align="center">
   <a href="https://wangyephd.github.io/"> <b>Ye Wang</b> </a><sup>1</sup> 
