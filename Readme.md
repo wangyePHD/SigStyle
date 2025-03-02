@@ -13,7 +13,7 @@
   <sup>1</sup>School of Artificial Intelligence, Jilin University, <br>
   <sup>2</sup>College of Computer Science and Technology, Jilin University,<br> 
   <sup>3</sup>School of Intelligence Science and Technology, Nanjing University,<br>   
-  <sup>4</sup>Adobe<br>
+  <sup>4</sup>Adobe,<br>
   <sup>5</sup>Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, MOE, China
 
 
