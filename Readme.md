@@ -70,7 +70,7 @@ bash style_inversion_train.sh 0 05 painting 0.1 1
 
 📌 Parameter Explanation
 - 0: GPU index (set to 0 for the first GPU)
-- Impressionist: Name of the style image (without extension). Refer to the data/style/ folder.
+- 05: Name of the style image (without extension). Refer to the data/style/ folder.
 - painting: domain words.
 - 0.1: Default value (keep as is).
 - 1: Batch size.
