@@ -16,7 +16,7 @@ class ShapeInvEncoder(ModelMixin, ConfigMixin):
             word_embedding_dim=768,
             block_out_channels=(320, 640, 1280, 1280),
             arch="ViT-B-32", 
-            version="/data1/huggingface_ckpts/laion/CLIP-ViT-B-32-laion2B-s34B-b79K/open_clip_pytorch_model.bin",
+            version="Weights/laion/CLIP-ViT-B-32-laion2B-s34B-b79K/open_clip_pytorch_model.bin",
             antialias=False,
             freeze_clip_vision=True,
             **kwargs

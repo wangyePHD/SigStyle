@@ -160,6 +160,7 @@ def main():
     pretrained_folder = os.path.join(args.pretrained_model_name_or_path, str(100))
     print(f"Loading from {pretrained_folder}")
     config = load_config_from_pretrained(pretrained_folder)
+    
     pretrained_model_name_or_path = getattr_from_config(config, "pretrained_model_name_or_path")
     
     
@@ -211,7 +212,7 @@ def main():
         clip_model=getattr_from_config(config, "pretrained_model_name_or_path")
     )
     
-    for weight in range(1500,20000,100):
+    for weight in range(1000,20000,100):
         
         student_unet_pretrained_path = os.path.join(args.pretrained_model_name_or_path, str(weight))
         student_unet = load_shapeinv_unet(

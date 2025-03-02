@@ -2,13 +2,14 @@
 
 name="tower"
 
-pretrained_folder="XXX"
+pretrained_folder="Outs/05-0.1-1_2025-03-02-15.38/weight"
 result_folder="results/$name/"
 
 edit_prompt="a photo of the Eiffel Tower, in the style of *a"
 reference_img="data/style/05.jpg"
 edit_img="data/content/tower.png"
 source_prompt="a photo of the Eiffel Tower"
+
 
 
 CUDA_VISIBLE_DEVICES=1 python inference_student_appearance.py \
@@ -25,6 +26,6 @@ CUDA_VISIBLE_DEVICES=1 python inference_student_appearance.py \
   --edit_image_path_or_url "$edit_img" \
   --source_prompt "$source_prompt" \
   --edit_mask "$edit_mask" \
-  --time 15 \
+  --time 10 \
   --img_pre_name $name \
 
