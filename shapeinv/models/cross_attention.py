@@ -305,7 +305,7 @@ class CrossAttnProcessor:
         ############################
     ):  
         
-        weight_wo = 0.5
+        weight_wo = 1.0
         # print(f"weight_wo: {weight_wo}")
         
         batch_size, sequence_length, _ = hidden_states.shape
